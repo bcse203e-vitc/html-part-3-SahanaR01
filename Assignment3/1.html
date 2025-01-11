@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-Commerce Product Table</title>
+    <style>
+      table {
+        width: 100%;
+        border-collapse: collapse;
+      }
+      th,
+      td {
+        border: 1px solid #000;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+      }
+      tr:nth-child(odd) {
+        background-color: #dff0d8;
+      }
+      .category-electronics {
+        background-color: #f2f2f2;
+      }
+      .category-kitchen {
+        background-color: #dff0d8;
+      }
+      .category-furniture {
+        background-color: #f9f2f4;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>E-Commerce Product List</h1>
+    <table>
+      <caption>
+        <strong>Product Details</strong>
+      </caption>
+      <colgroup>
+        <col span="3" style="background-color: #f2f2f2" />
+        <col span="3" style="background-color: #ffffff" />
+        <col style="background-color: #f2f2f2" />
+      </colgroup>
+      <thead>
+        <tr>
+          <th scope="col">Product ID</th>
+          <th scope="col">Name</th>
+          <th scope="col">Category</th>
+          <th scope="col">Price ($)</th>
+          <th scope="col">Discount (%)</th>
+          <th scope="col">Final Price ($)</th>
+          <th scope="col">Rating</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="category-electronics">
+          <td id="p101">101</td>
+          <td headers="p101">Wireless Mouse</td>
+          <td headers="p101">Electronics</td>
+          <td headers="p101">25.00</td>
+          <td headers="p101">10</td>
+          <td headers="p101">22.50</td>
+          <td headers="p101">★★★★☆</td>
+        </tr>
+        <tr class="category-kitchen">
+          <td id="p102">102</td>
+          <td headers="p102">Coffee Mug</td>
+          <td headers="p102">Kitchen</td>
+          <td headers="p102">15.00</td>
+          <td headers="p102">5</td>
+          <td headers="p102">14.25</td>
+          <td headers="p102">★★★☆☆</td>
+        </tr>
+        <tr class="category-furniture">
+          <td id="p103">103</td>
+          <td headers="p103">Office Chair</td>
+          <td headers="p103">Furniture</td>
+          <td headers="p103">150.00</td>
+          <td headers="p103">20</td>
+          <td headers="p103">120.00</td>
+          <td headers="p103">★★★★★</td>
+        </tr>
+        <tr class="category-electronics">
+          <td id="p104">104</td>
+          <td headers="p104">Desk Lamp</td>
+          <td headers="p104">Electronics</td>
+          <td headers="p104">30.00</td>
+          <td headers="p104">15</td>
+          <td headers="p104">25.50</td>
+          <td headers="p104">★★★★☆</td>
+        </tr>
+        <tr class="category-kitchen">
+          <td id="p105">105</td>
+          <td headers="p105">Water Bottle</td>
+          <td headers="p105">Kitchen</td>
+          <td headers="p105">12.00</td>
+          <td headers="p105">10</td>
+          <td headers="p105">10.80</td>
+          <td headers="p105">★★★☆☆</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="7" style="text-align: right">
+            <strong>Total Products: 5</strong>
+          </td>
+        </tr>
+      </tfoot>
+    </table>
+  </body>
+</html>
