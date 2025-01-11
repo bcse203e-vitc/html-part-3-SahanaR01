@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Conference Timetable</title>
+  </head>
+  <body>
+    <h1>Conference Timetable</h1>
+    <table border="1" cellspacing="0" cellpadding="5">
+      <caption>
+        <strong>Conference Schedule</strong>
+      </caption>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Room A</th>
+          <th>Room B</th>
+          <th>Room C</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>09:00 - 10:00</td>
+          <td colspan="3" title="Opening Keynote by Dr. Smith">
+            Opening Keynote
+          </td>
+        </tr>
+        <tr>
+          <td>10:15 - 11:00</td>
+          <td title="Workshop on AI by John Doe">AI Workshop</td>
+          <td title="Marketing Strategies by Jane Doe">Marketing</td>
+          <td rowspan="2" title="Design Sprint by Emily Clarke">
+            Design Sprint
+          </td>
+        </tr>
+        <tr>
+          <td>11:15 - 12:00</td>
+          <td title="Data Science by Mike Lee">Data Science</td>
+          <td title="Social Media by Sarah Connor">Social Media</td>
+        </tr>
+        <tr>
+          <td>12:00 - 13:00</td>
+          <td colspan="3" title="Lunch Break">Lunch Break</td>
+        </tr>
+        <tr>
+          <td>13:00 - 14:00</td>
+          <td title="Blockchain by Chris Evans">Blockchain</td>
+          <td title="Product Management by Tom Hardy">Product Management</td>
+          <td title="Customer Experience by Anna Lee">Customer Experience</td>
+        </tr>
+        <tr>
+          <td>14:15 - 15:00</td>
+          <td title="Machine Learning by Alice Brown">Machine Learning</td>
+          <td colspan="2" title="Panel Discussion on Future Tech">
+            Panel Discussion
+          </td>
+        </tr>
+        <tr>
+          <td>15:15 - 16:00</td>
+          <td rowspan="2" title="Coding Bootcamp by Kevin Johnson">
+            Coding Bootcamp
+          </td>
+          <td title="SEO Tips by Rachel Green">SEO</td>
+          <td title="Finance Management by Monica Geller">Finance</td>
+        </tr>
+        <tr>
+          <td>16:15 - 17:00</td>
+          <td colspan="2" title="Closing Remarks by Conference Chair">
+            Closing Remarks
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>Legend</h2>
+    <ul>
+      <li style="color: green">Keynote</li>
+      <li style="color: blue">Workshop</li>
+      <li style="color: red">Panel Discussion</li>
+      <li style="color: orange">Breaks</li>
+    </ul>
+  </body>
+</html>
